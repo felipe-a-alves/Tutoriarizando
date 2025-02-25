@@ -1,0 +1,62 @@
+body {
+    background-image: url(img/montanha.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 770px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    padding: 50px;
+    backdrop-filter: blur 8px;    
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color:white;
+    text-align:center;
+    
+}
+
+
+div.wrapper {
+    border: 2px solid white; /* 50px de largura, estilo sólido e cor branca */
+    border-radius: 2%;
+}
+
+button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    background: transparent;
+    border: 1px solid white;
+    transition: 0.5s ease;
+    user-select: none;
+}
+
+#btn:hover, #btn:focus {
+  color: #ffffff;
+  background: #008cff;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+    0 0 100px #008cff;
+}
+
+#btnn:hover, #btnn:focus {
+    color: #ffffff;
+    background: #FFD700;
+    border: 1px solid #FFD700;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #FFD700, 0 0 20px #FFD700, 0 0 50px #FFD700,
+      0 0 100px #FFD700;
+  }
+  
+
