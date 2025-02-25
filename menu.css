@@ -41,6 +41,16 @@ button {
     user-select: none;
 }
 
+span.test { 
+        color: white;
+        text-shadow: 
+          -2px -2px 0 black,  
+           2px -2px 0 black,
+          -2px  2px 0 black,
+           2px  2px 0 black; /* Criando a borda com sombras */
+      
+}
+
 #btn:hover, #btn:focus {
   color: #ffffff;
   background: #008cff;
